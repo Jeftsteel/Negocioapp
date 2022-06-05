@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1006367928491BD500F596F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1006367828491BD500F596F3 /* AppDelegate.swift */; };
+		1006367B28491BD500F596F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1006367A28491BD500F596F3 /* SceneDelegate.swift */; };
+		1006368228491BD500F596F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1006368128491BD500F596F3 /* Assets.xcassets */; };
+		1006368528491BD500F596F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1006368328491BD500F596F3 /* LaunchScreen.storyboard */; };
+		1006368E284925F800F596F3 /* FirstStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1006368D284925F800F596F3 /* FirstStoryboard.storyboard */; };
+		100636902849267000F596F3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1006368F2849267000F596F3 /* FirstViewController.swift */; };
+		10063693284934D100F596F3 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10063692284934D100F596F3 /* SecondStoryboard.storyboard */; };
+		10063695284934E700F596F3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10063694284934E700F596F3 /* SecondViewController.swift */; };
+		1006369B2849982100F596F3 /* BebidasStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1006369A2849982100F596F3 /* BebidasStoryboard.storyboard */; };
+		1006369D2849987D00F596F3 /* BebidasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1006369C2849987D00F596F3 /* BebidasViewController.swift */; };
+		100636A328499CDC00F596F3 /* BotanasStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100636A228499CDC00F596F3 /* BotanasStoryboard.storyboard */; };
+		100636A528499CF700F596F3 /* BotanasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100636A428499CF700F596F3 /* BotanasViewController.swift */; };
+		100636A828499E4A00F596F3 /* ComidaStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100636A728499E4A00F596F3 /* ComidaStoryboard.storyboard */; };
+		100636AA28499EB900F596F3 /* ComidaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100636A928499EB900F596F3 /* ComidaViewController.swift */; };
+		100636AD28499FC300F596F3 /* BotellasStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100636AC28499FC300F596F3 /* BotellasStoryboard.storyboard */; };
+		100636AF28499FD700F596F3 /* BotellasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100636AE28499FD700F596F3 /* BotellasViewController.swift */; };
+		100636B22849A0AC00F596F3 /* CarritoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100636B12849A0AC00F596F3 /* CarritoStoryboard.storyboard */; };
+		100636B42849A0E800F596F3 /* CarritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100636B32849A0E800F596F3 /* CarritoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1006367528491BD500F596F3 /* Negocioapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Negocioapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1006367828491BD500F596F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1006367A28491BD500F596F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1006368128491BD500F596F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1006368428491BD500F596F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1006368628491BD500F596F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1006368D284925F800F596F3 /* FirstStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FirstStoryboard.storyboard; sourceTree = "<group>"; };
+		1006368F2849267000F596F3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		10063692284934D100F596F3 /* SecondStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		10063694284934E700F596F3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		1006369A2849982100F596F3 /* BebidasStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BebidasStoryboard.storyboard; sourceTree = "<group>"; };
+		1006369C2849987D00F596F3 /* BebidasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BebidasViewController.swift; sourceTree = "<group>"; };
+		100636A228499CDC00F596F3 /* BotanasStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BotanasStoryboard.storyboard; sourceTree = "<group>"; };
+		100636A428499CF700F596F3 /* BotanasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotanasViewController.swift; sourceTree = "<group>"; };
+		100636A728499E4A00F596F3 /* ComidaStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ComidaStoryboard.storyboard; sourceTree = "<group>"; };
+		100636A928499EB900F596F3 /* ComidaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComidaViewController.swift; sourceTree = "<group>"; };
+		100636AC28499FC300F596F3 /* BotellasStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BotellasStoryboard.storyboard; sourceTree = "<group>"; };
+		100636AE28499FD700F596F3 /* BotellasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotellasViewController.swift; sourceTree = "<group>"; };
+		100636B12849A0AC00F596F3 /* CarritoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarritoStoryboard.storyboard; sourceTree = "<group>"; };
+		100636B32849A0E800F596F3 /* CarritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1006367228491BD500F596F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1006366C28491BD500F596F3 = {
+			isa = PBXGroup;
+			children = (
+				1006367728491BD500F596F3 /* Negocioapp */,
+				1006367628491BD500F596F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1006367628491BD500F596F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1006367528491BD500F596F3 /* Negocioapp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1006367728491BD500F596F3 /* Negocioapp */ = {
+			isa = PBXGroup;
+			children = (
+				100636B02849A04C00F596F3 /* CarritoView */,
+				100636AB28499FA800F596F3 /* BotellasView */,
+				100636A628499D7A00F596F3 /* ComidaView */,
+				100636A128499C8500F596F3 /* BotanasView */,
+				10063699284997A000F596F3 /* BebidasView  */,
+				100636912849348E00F596F3 /* SecondView */,
+				1006368C2849245000F596F3 /* First View */,
+				1006367828491BD500F596F3 /* AppDelegate.swift */,
+				1006367A28491BD500F596F3 /* SceneDelegate.swift */,
+				1006368128491BD500F596F3 /* Assets.xcassets */,
+				1006368328491BD500F596F3 /* LaunchScreen.storyboard */,
+				1006368628491BD500F596F3 /* Info.plist */,
+			);
+			path = Negocioapp;
+			sourceTree = "<group>";
+		};
+		1006368C2849245000F596F3 /* First View */ = {
+			isa = PBXGroup;
+			children = (
+				1006368D284925F800F596F3 /* FirstStoryboard.storyboard */,
+				1006368F2849267000F596F3 /* FirstViewController.swift */,
+			);
+			path = "First View";
+			sourceTree = "<group>";
+		};
+		100636912849348E00F596F3 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				10063692284934D100F596F3 /* SecondStoryboard.storyboard */,
+				10063694284934E700F596F3 /* SecondViewController.swift */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
+		10063699284997A000F596F3 /* BebidasView  */ = {
+			isa = PBXGroup;
+			children = (
+				1006369A2849982100F596F3 /* BebidasStoryboard.storyboard */,
+				1006369C2849987D00F596F3 /* BebidasViewController.swift */,
+			);
+			path = "BebidasView ";
+			sourceTree = "<group>";
+		};
+		100636A128499C8500F596F3 /* BotanasView */ = {
+			isa = PBXGroup;
+			children = (
+				100636A228499CDC00F596F3 /* BotanasStoryboard.storyboard */,
+				100636A428499CF700F596F3 /* BotanasViewController.swift */,
+			);
+			path = BotanasView;
+			sourceTree = "<group>";
+		};
+		100636A628499D7A00F596F3 /* ComidaView */ = {
+			isa = PBXGroup;
+			children = (
+				100636A728499E4A00F596F3 /* ComidaStoryboard.storyboard */,
+				100636A928499EB900F596F3 /* ComidaViewController.swift */,
+			);
+			path = ComidaView;
+			sourceTree = "<group>";
+		};
+		100636AB28499FA800F596F3 /* BotellasView */ = {
+			isa = PBXGroup;
+			children = (
+				100636AC28499FC300F596F3 /* BotellasStoryboard.storyboard */,
+				100636AE28499FD700F596F3 /* BotellasViewController.swift */,
+			);
+			path = BotellasView;
+			sourceTree = "<group>";
+		};
+		100636B02849A04C00F596F3 /* CarritoView */ = {
+			isa = PBXGroup;
+			children = (
+				100636B12849A0AC00F596F3 /* CarritoStoryboard.storyboard */,
+				100636B32849A0E800F596F3 /* CarritoViewController.swift */,
+			);
+			path = CarritoView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1006367428491BD500F596F3 /* Negocioapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1006368928491BD500F596F3 /* Build configuration list for PBXNativeTarget "Negocioapp" */;
+			buildPhases = (
+				1006367128491BD500F596F3 /* Sources */,
+				1006367228491BD500F596F3 /* Frameworks */,
+				1006367328491BD500F596F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Negocioapp;
+			productName = Negocioapp;
+			productReference = 1006367528491BD500F596F3 /* Negocioapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1006366D28491BD500F596F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					1006367428491BD500F596F3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 1006367028491BD500F596F3 /* Build configuration list for PBXProject "Negocioapp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1006366C28491BD500F596F3;
+			productRefGroup = 1006367628491BD500F596F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1006367428491BD500F596F3 /* Negocioapp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1006367328491BD500F596F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100636B22849A0AC00F596F3 /* CarritoStoryboard.storyboard in Resources */,
+				100636A828499E4A00F596F3 /* ComidaStoryboard.storyboard in Resources */,
+				1006369B2849982100F596F3 /* BebidasStoryboard.storyboard in Resources */,
+				1006368E284925F800F596F3 /* FirstStoryboard.storyboard in Resources */,
+				100636AD28499FC300F596F3 /* BotellasStoryboard.storyboard in Resources */,
+				1006368528491BD500F596F3 /* LaunchScreen.storyboard in Resources */,
+				1006368228491BD500F596F3 /* Assets.xcassets in Resources */,
+				100636A328499CDC00F596F3 /* BotanasStoryboard.storyboard in Resources */,
+				10063693284934D100F596F3 /* SecondStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1006367128491BD500F596F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10063695284934E700F596F3 /* SecondViewController.swift in Sources */,
+				100636902849267000F596F3 /* FirstViewController.swift in Sources */,
+				100636AA28499EB900F596F3 /* ComidaViewController.swift in Sources */,
+				1006367928491BD500F596F3 /* AppDelegate.swift in Sources */,
+				100636AF28499FD700F596F3 /* BotellasViewController.swift in Sources */,
+				100636A528499CF700F596F3 /* BotanasViewController.swift in Sources */,
+				1006369D2849987D00F596F3 /* BebidasViewController.swift in Sources */,
+				100636B42849A0E800F596F3 /* CarritoViewController.swift in Sources */,
+				1006367B28491BD500F596F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1006368328491BD500F596F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1006368428491BD500F596F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1006368728491BD500F596F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1006368828491BD500F596F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1006368A28491BD500F596F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Negocioapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cristian.Negocioapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1006368B28491BD500F596F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Negocioapp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cristian.Negocioapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1006367028491BD500F596F3 /* Build configuration list for PBXProject "Negocioapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1006368728491BD500F596F3 /* Debug */,
+				1006368828491BD500F596F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1006368928491BD500F596F3 /* Build configuration list for PBXNativeTarget "Negocioapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1006368A28491BD500F596F3 /* Debug */,
+				1006368B28491BD500F596F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1006366D28491BD500F596F3 /* Project object */;
+}
