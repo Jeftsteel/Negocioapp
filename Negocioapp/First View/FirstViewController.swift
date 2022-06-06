@@ -30,19 +30,41 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var cashSwitch: UISwitch!
     @IBOutlet weak var CardNumberLabel: UILabel!    
     @IBOutlet weak var CardNumberTextField: UITextField!
+    @IBOutlet weak var errorLabel: UILabel!
     
     //MARK: Actions
     @IBAction func registrarseButtonPressed(_ sender: Any) {
-        let secondStoryboard = UIStoryboard(name: "SecondStoryboard", bundle: .main)
-        if let secondViewController = secondStoryboard.instantiateViewController(withIdentifier: "SecondVC")as? SecondViewController{
-            secondViewController.modalPresentationStyle = .fullScreen
-            secondViewController.stringReceived = "String desde FirstVC"
-            let navigationController = UINavigationController(rootViewController: secondViewController)
-            self.present(navigationController,animated: true)
-            //self.navigationController?.pushViewController(secondViewController, animated: true)
+        guard let name = nameTextField.text,
+              let email = emailTextField.text,
+              let phone = phoneTextField.text else{return}
+        if name.isEmpty || email.isEmpty ||  phone.isEmpty{
+            errorLabel.isHidden = false
+        }else{
+            errorLabel.isHidden = true
+            let newUser = User(name: name,email: email, phone: phone)
+            presentSecondStoryBoard(withUser: newUser)
+            
         }
     }
+    @IBAction func ageSwitchChange(_ sender: Any) {
+        if ageSwitch.isOn == false{
+            confirmButton.isEnabled = false
+            
+        }else{
+            confirmButton.isEnabled = true
+            
+        }
+   }
     
+    
+    
+    
+    @IBAction func cardSwitchChange(_ sender: Any) {
+        if cardSwitch.isOn == true{
+            CardNumberLabel.isHidden = false
+            CardNumberTextField.isHidden = false
+        }
+    }
     
     //MARK: Methods
     
@@ -55,12 +77,35 @@ class FirstViewController: UIViewController {
         ageSwitch.isOn = false
         cashSwitch.isOn = false
         cardSwitch.isOn = false
-        CardNumberLabel.text = "Ingrese su numero de tarjeta"
         
+        CardNumberLabel.text = "Ingrese su numero de tarjeta"
+        CardNumberLabel.isHidden = true
+        
+        CardNumberTextField.placeholder = "Numero de tarjeta"
+        CardNumberTextField.isHidden = true
+        
+        nameTextField.placeholder = "Nombre"
+        emailTextField.placeholder = "Email"
+        phoneTextField.placeholder = "Telefono"
+        errorLabel.text = "Error, ingrese todos los datos"
+        errorLabel.isHidden = true
+        
+        confirmButton.isEnabled = false
     
     }
     
-    
+    func presentSecondStoryBoard(withUser user: User){
+        let secondStoryboard = UIStoryboard(name: "SecondStoryboard", bundle: .main)
+        if let secondViewController = secondStoryboard.instantiateViewController(withIdentifier: "SecondVC")as? SecondViewController{
+            secondViewController.modalPresentationStyle = .fullScreen
+            secondViewController.stringReceived = "String desde FirstVC"
+            let navigationController = UINavigationController(rootViewController: secondViewController)
+            secondViewController.user = user
+            self.present(navigationController,animated: true)
+            //self.navigationController?.pushViewController(secondViewController, animated: true)
+        }
+        
+    }
     
     
 }

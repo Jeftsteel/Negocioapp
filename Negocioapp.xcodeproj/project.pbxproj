@@ -25,6 +25,7 @@
 		100636AF28499FD700F596F3 /* BotellasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100636AE28499FD700F596F3 /* BotellasViewController.swift */; };
 		100636B22849A0AC00F596F3 /* CarritoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100636B12849A0AC00F596F3 /* CarritoStoryboard.storyboard */; };
 		100636B42849A0E800F596F3 /* CarritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100636B32849A0E800F596F3 /* CarritoViewController.swift */; };
+		10E0AF43284DCFF800327C5D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E0AF42284DCFF800327C5D /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		100636AE28499FD700F596F3 /* BotellasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotellasViewController.swift; sourceTree = "<group>"; };
 		100636B12849A0AC00F596F3 /* CarritoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarritoStoryboard.storyboard; sourceTree = "<group>"; };
 		100636B32849A0E800F596F3 /* CarritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewController.swift; sourceTree = "<group>"; };
+		10E0AF42284DCFF800327C5D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				1006368D284925F800F596F3 /* FirstStoryboard.storyboard */,
 				1006368F2849267000F596F3 /* FirstViewController.swift */,
+				10E0AF42284DCFF800327C5D /* User.swift */,
 			);
 			path = "First View";
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				100636A528499CF700F596F3 /* BotanasViewController.swift in Sources */,
 				1006369D2849987D00F596F3 /* BebidasViewController.swift in Sources */,
 				100636B42849A0E800F596F3 /* CarritoViewController.swift in Sources */,
+				10E0AF43284DCFF800327C5D /* User.swift in Sources */,
 				1006367B28491BD500F596F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
