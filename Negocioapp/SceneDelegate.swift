@@ -18,7 +18,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
             let window = UIWindow(windowScene: windowScene)
             let firstStoryboard = UIStoryboard(name: "FirstStoryboard", bundle: .main)
             if let firstViewController = firstStoryboard.instantiateViewController(withIdentifier: "FirstVC")as? FirstViewController{
-                window.rootViewController = firstViewController
+                let navigatorController = UINavigationController(rootViewController: firstViewController)
+                window.rootViewController = navigatorController
                 self.window = window
                 window.makeKeyAndVisible()
             }
