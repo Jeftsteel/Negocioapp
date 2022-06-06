@@ -26,7 +26,16 @@ class SecondViewController: UIViewController {
         titleLabel.text = "Bienvenido:"
     }
     
+    func presentBotanasStoryBoard(){
+        let botanasStoryboard = UIStoryboard(name: "BotanasStoryboard", bundle: .main)
+        if let botanasViewController = botanasStoryboard.instantiateViewController(withIdentifier: "botanasVC")as? SecondViewController{
+            botanasViewController.modalPresentationStyle = .fullScreen
+            botanasViewController.stringReceived = "String desde secondVC"
+            let navigationController = UINavigationController(rootViewController: botanasViewController)
+            botanasViewController.user = user
+            self.present(navigationController,animated: true)
+            //self.navigationController?.pushViewController(secondViewController, animated: true)
+        }
 
 }
-
-
+}
