@@ -26,6 +26,7 @@
 		100636B22849A0AC00F596F3 /* CarritoStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100636B12849A0AC00F596F3 /* CarritoStoryboard.storyboard */; };
 		100636B42849A0E800F596F3 /* CarritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100636B32849A0E800F596F3 /* CarritoViewController.swift */; };
 		10E0AF43284DCFF800327C5D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E0AF42284DCFF800327C5D /* User.swift */; };
+		10E0AF4B284E26EA00327C5D /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E0AF4A284E26EA00327C5D /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		100636B12849A0AC00F596F3 /* CarritoStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarritoStoryboard.storyboard; sourceTree = "<group>"; };
 		100636B32849A0E800F596F3 /* CarritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarritoViewController.swift; sourceTree = "<group>"; };
 		10E0AF42284DCFF800327C5D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		10E0AF4A284E26EA00327C5D /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 			children = (
 				10063692284934D100F596F3 /* SecondStoryboard.storyboard */,
 				10063694284934E700F596F3 /* SecondViewController.swift */,
+				10E0AF4A284E26EA00327C5D /* CustomCell.swift */,
 			);
 			path = SecondView;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 			files = (
 				10063695284934E700F596F3 /* SecondViewController.swift in Sources */,
 				100636902849267000F596F3 /* FirstViewController.swift in Sources */,
+				10E0AF4B284E26EA00327C5D /* CustomCell.swift in Sources */,
 				100636AA28499EB900F596F3 /* ComidaViewController.swift in Sources */,
 				1006367928491BD500F596F3 /* AppDelegate.swift in Sources */,
 				100636AF28499FD700F596F3 /* BotellasViewController.swift in Sources */,
