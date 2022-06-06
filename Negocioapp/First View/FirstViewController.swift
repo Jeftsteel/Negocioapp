@@ -56,7 +56,6 @@ class FirstViewController: UIViewController {
         cashSwitch.isOn = false
         cardSwitch.isOn = false
         CardNumberLabel.text = "Ingrese su numero de tarjeta"
-        CardNumberTextField.placeholder = "Numero de tarjeta"
         
     
     }
